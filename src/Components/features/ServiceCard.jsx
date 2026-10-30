@@ -1,5 +1,5 @@
 import React from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 
 export const ServiceCard = ({ service }) => {
   const { openBooking } = useApp();
