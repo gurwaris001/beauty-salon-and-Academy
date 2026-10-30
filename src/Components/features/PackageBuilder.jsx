@@ -1,5 +1,5 @@
 import React from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 import { servicesData } from '../../data/servicesData';
 
 export const PackageBuilder = () => {
@@ -22,11 +22,10 @@ export const PackageBuilder = () => {
             <div
               key={service.id}
               onClick={() => togglePackageItem(service)}
-              className={`p-4 rounded-xl border cursor-pointer transition-all flex justify-between items-center ${
-                isSelected
+              className={`p-4 rounded-xl border cursor-pointer transition-all flex justify-between items-center ${isSelected
                   ? 'border-[#bbbb67] bg-amber-400/10'
                   : 'border-gray-800 bg-[#0d0d14] hover:border-gray-700'
-              }`}
+                }`}
             >
               <div>
                 <h4 className="text-sm font-semibold text-white">{service.name}</h4>

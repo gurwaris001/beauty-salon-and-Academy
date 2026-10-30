@@ -2,7 +2,7 @@ import React from 'react';
 import { SectionHeader } from '../Components/common/SectionHeader';
 import { PackageBuilder } from '../Components/features/PackageBuilder';
 import { packagesData } from '../data/packagesData';
-import { useApp } from '../context/AppContext';
+import { useApp } from '../Context/AppContext';
 
 export const PackagesPage = () => {
   const { openBooking } = useApp();

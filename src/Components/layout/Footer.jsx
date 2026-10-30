@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { siteConfig } from '../../config/siteConfig';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 
 export const Footer = () => {
   const { setActiveTab } = useApp();
@@ -30,7 +30,7 @@ export const Footer = () => {
             </p>
 
             <h2 className="font-serif text-4xl font-semibold tracking-wide text-[#f4e8e3]">
-              Nayaab<span className="text-[#d6ad70]">.</span>
+              Naayaab<span className="text-[#d6ad70]">.</span>
             </h2>
 
             <p className="mt-5 max-w-xs text-sm leading-7 text-[#a9949d]">
@@ -182,7 +182,7 @@ export const Footer = () => {
             </h3>
 
             <p className="mt-5 text-sm leading-7 text-[#a9949d]">
-              Visit Nayaab Beauty Studio & Academy and experience
+              Visit Naayaab Beauty Studio & Academy and experience
               a space dedicated to beauty, creativity and self-care.
             </p>
 
@@ -219,7 +219,7 @@ export const Footer = () => {
           <div className="relative h-[280px] overflow-hidden border border-[#d6ad70]/30 p-1 md:h-[350px]">
 
             <iframe
-              title="Nayaab Beauty Studio Location"
+              title="Naayaab Beauty Studio Location"
               src={mapUrl}
               width="100%"
               height="100%"

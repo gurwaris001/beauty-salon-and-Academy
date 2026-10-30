@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppProvider, useApp } from './context/AppContext';
+import { AppProvider, useApp } from './Context/AppContext';
 import { Navbar } from './Components/layout/Navbar';
 import { Footer } from './Components/layout/Footer';
 import { BookingModal } from './Components/features/BookingModel';

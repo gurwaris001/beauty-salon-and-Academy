@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 
 export const Navbar = () => {
   const { activeTab, setActiveTab, openBooking } = useApp();
@@ -19,7 +19,7 @@ export const Navbar = () => {
     <header className="sticky top-0 z-40 bg-[#0b0b0f]/90 backdrop-blur-md border-b border-amber-500/20 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Brand Logo */}
-        <div 
+        <div
           className="cursor-pointer flex items-center space-x-3"
           onClick={() => setActiveTab('home')}
         >
@@ -37,11 +37,10 @@ export const Navbar = () => {
             <button
               key={item.id}
               onClick={() => setActiveTab(item.id)}
-              className={`text-sm tracking-wider uppercase transition-colors ${
-                activeTab === item.id
+              className={`text-sm tracking-wider uppercase transition-colors ${activeTab === item.id
                   ? 'text-[#bbbb67] font-semibold border-b-2 border-[#bbbb67] pb-1'
                   : 'text-gray-400 hover:text-white'
-              }`}
+                }`}
             >
               {item.label}
             </button>
@@ -77,9 +76,8 @@ export const Navbar = () => {
                 setActiveTab(item.id);
                 setMobileMenuOpen(false);
               }}
-              className={`text-left text-sm uppercase py-1 ${
-                activeTab === item.id ? 'text-[#bbbb67] font-bold' : 'text-gray-400'
-              }`}
+              className={`text-left text-sm uppercase py-1 ${activeTab === item.id ? 'text-[#bbbb67] font-bold' : 'text-gray-400'
+                }`}
             >
               {item.label}
             </button>

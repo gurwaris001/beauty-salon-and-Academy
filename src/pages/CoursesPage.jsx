@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { coursesData } from '../data/coursesData';
-import { useApp } from '../context/AppContext';
+import { useApp } from '../Context/AppContext';
 
 // Discount assigned to each course
 const getDiscount = (course) => {
@@ -93,8 +93,8 @@ export const CoursesPage = () => {
     activeCategory === 'All'
       ? coursesData
       : coursesData.filter(
-          (course) => getCategory(course.title) === activeCategory
-        );
+        (course) => getCategory(course.title) === activeCategory
+      );
 
   return (
     <div className="min-h-screen bg-[#211b1d] text-white">
@@ -106,7 +106,7 @@ export const CoursesPage = () => {
 
           <div>
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.35em] text-[#d6ad70]">
-              Nayaab Beauty Studio & Academy
+              Naayaab Beauty Studio & Academy
             </p>
 
             <h1 className="font-serif text-4xl leading-tight text-[#f6e9e3] md:text-6xl">
@@ -180,11 +180,10 @@ export const CoursesPage = () => {
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
-              className={`rounded-full border px-5 py-2 text-xs font-medium transition-all duration-300 ${
-                activeCategory === category
-                  ? 'border-[#d6ad70] bg-[#d6ad70] text-[#211b1d]'
-                  : 'border-white/15 text-[#d5c5ca] hover:border-[#d6ad70] hover:text-[#d6ad70]'
-              }`}
+              className={`rounded-full border px-5 py-2 text-xs font-medium transition-all duration-300 ${activeCategory === category
+                ? 'border-[#d6ad70] bg-[#d6ad70] text-[#211b1d]'
+                : 'border-white/15 text-[#d5c5ca] hover:border-[#d6ad70] hover:text-[#d6ad70]'
+                }`}
             >
               {category}
             </button>
@@ -229,7 +228,7 @@ export const CoursesPage = () => {
                   <div className="relative z-10">
 
                     <p className="mb-2 text-[10px] uppercase tracking-[0.3em] text-[#f0d5d9]">
-                      Nayaab Academy
+                      Naayaab Academy
                     </p>
 
                     <p className="max-w-[190px] font-serif text-2xl leading-tight text-white">

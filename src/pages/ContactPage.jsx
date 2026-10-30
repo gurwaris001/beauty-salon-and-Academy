@@ -26,7 +26,7 @@ export const ContactPage = () => {
     const whatsappNumber = '916284549731';
 
     const whatsappMessage = `
-Hello Nayaab Beauty Studio & Academy!
+Hello Naayaab Beauty Studio & Academy!
 
 I would like to book an appointment.
 
@@ -60,7 +60,7 @@ Please confirm my appointment. Thank you!
         <div className="bg-gradient-to-br from-[#39212e] to-[#21131c] border border-[#d9ad79]/20 rounded-2xl p-8 md:p-10">
 
           <p className="text-[#d9ad79] uppercase tracking-[0.3em] text-xs mb-4">
-            Nayaab Beauty Studio
+            Naayaab Beauty Studio
           </p>
 
           <h2 className="text-3xl font-serif mb-5">

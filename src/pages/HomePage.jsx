@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BeforeAfterSlider } from '../Components/features/BeforeAfterSlider';
-import { useApp } from '../context/AppContext';
+import { useApp } from '../Context/AppContext';
 
 export const HomePage = () => {
   const { setActiveTab, openBooking } = useApp();
@@ -40,7 +40,7 @@ export const HomePage = () => {
                 <span className="w-2 h-2 rounded-full bg-[#E6A9BE]" />
 
                 <span className="text-[#E6B7C7] text-[9px] sm:text-[10px] md:text-xs tracking-[0.2em] uppercase">
-                  Nayaab Beauty Studio & Academy
+                  Naayaab Beauty Studio & Academy
                 </span>
 
               </div>
@@ -349,7 +349,7 @@ export const HomePage = () => {
             <div>
 
               <p className="text-[#E8B5C4] text-xs tracking-[0.35em] uppercase mb-5">
-                Nayaab Beauty Academy
+                Naayaab Beauty Academy
               </p>
 
               <h2 className="serif-font text-4xl md:text-6xl text-white leading-tight">

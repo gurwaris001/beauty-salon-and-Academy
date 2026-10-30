@@ -26,7 +26,7 @@ export const AboutPage = () => {
 
         <div className="relative max-w-4xl mx-auto">
           <p className="text-[#d9ad79] uppercase tracking-[0.35em] text-xs mb-4">
-            Welcome to Nayaab
+            Welcome to Naayaab
           </p>
 
           <h1 className="text-4xl md:text-6xl font-serif leading-tight">
@@ -70,7 +70,7 @@ export const AboutPage = () => {
           </h2>
 
           <p className="text-gray-300 leading-7">
-            At Nayaab Beauty Studio & Academy, we believe beauty is
+            At Naayaab Beauty Studio & Academy, we believe beauty is
             an expression of individuality. Our passion lies in
             combining modern beauty techniques, artistic creativity
             and thoughtful care.
@@ -83,7 +83,7 @@ export const AboutPage = () => {
           </p>
 
           <p className="text-[#d9ad79] font-serif italic text-xl mt-5">
-            Your beauty. Your identity. Your Nayaab moment.
+            Your beauty. Your identity. Your Naayaab moment.
           </p>
         </div>
       </section>
@@ -96,7 +96,7 @@ export const AboutPage = () => {
               What Defines Us
             </p>
             <h2 className="text-3xl md:text-4xl font-serif">
-              The Nayaab Difference
+              The Naayaab Difference
             </h2>
           </div>
 
