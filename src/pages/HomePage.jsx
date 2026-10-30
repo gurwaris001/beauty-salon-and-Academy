@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BeforeAfterSlider } from '../Components/features/BeforeAfterSlider';
-import { useApp } from '../context/AppContext';
+import { useApp } from '../Context/AppContext';
 
 export const HomePage = () => {
   const { setActiveTab, openBooking } = useApp();
