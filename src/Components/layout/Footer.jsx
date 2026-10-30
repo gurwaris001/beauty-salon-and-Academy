@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { siteConfig } from '../../config/siteConfig';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 
 export const Footer = () => {
   const { setActiveTab } = useApp();
