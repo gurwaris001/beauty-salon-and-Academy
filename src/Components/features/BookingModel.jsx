@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useApp } from '../../context/AppContext';
+import { useApp } from '../../Context/AppContext';
 
 export const BookingModal = () => {
   const { isBookingOpen, closeBooking, bookingDetails } = useApp();
