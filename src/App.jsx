@@ -6,7 +6,7 @@ import { BookingModal } from './Components/features/BookingModel';
 import { SyllabusModal } from './Components/features/SyllabusModel';
 
 import { HomePage } from './pages/HomePage';
-import ServicesPage  from './pages/ServicesPage';
+import ServicesPage from './pages/ServicesPage';
 import { CoursesPage } from './pages/CoursesPage';
 import { PackagesPage } from './pages/PackagesPage';
 import { GalleryPage } from './pages/GalleryPage';
