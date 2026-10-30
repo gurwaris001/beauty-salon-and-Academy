@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { coursesData } from '../data/coursesData';
-import { useApp } from '../context/AppContext';
+import { useApp } from '../Context/AppContext';
 
 // Discount assigned to each course
 const getDiscount = (course) => {
